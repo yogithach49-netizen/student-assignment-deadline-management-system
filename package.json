@@ -1,0 +1,19 @@
+{
+  "name": "student-assignment-deadline-management-system",
+  "version": "1.0.0",
+  "description": "Student assignment and deadline management system with unit and component tests",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:unit": "node --test tests/unit",
+    "test:component": "node --test tests/component"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
